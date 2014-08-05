@@ -1,8 +1,14 @@
+p{
+  font-family: arial;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
 .squareOne{
   width: 400px;
   height: 400px;
   background: #ef5122;
-  // clear: both;
+  display: inline-block;
 }
 
 .squareTwo{
@@ -18,6 +24,7 @@
   border-radius: 100%;
   background: #f49ea7;
   vertical-align: top;
+  float: right;
 }
 
 .squareFour{
@@ -25,10 +32,63 @@
   height: 300px;
   background: #ef5122;
   border: 2px solid #68ac87;
+  float: right;
 }
 
 .squareFive{
   width: 300px;
   height: 300px;
-  background:#68ac87; 
+  background:#68ac87;
+}
+
+.squareSix{
+  width: 200px;
+  height: 300px;
+  background: #f49ea7;
+  float: right;
+}
+
+.squareSeven{
+  width: 300px;
+  height: 300px;
+  background: #68ac87;
+  border-radius: 10%;
+  border: 4px solid #f49ea7;
+}
+
+.squareEight{
+  width: 200px;
+  height: 200px;
+  background: #68ac87;
+}
+
+.squareNine{
+  width: 200px;
+  height: 200px;
+  background: #f49ea7;
+}
+
+.square10{
+  width: 350px;
+  height: 350px;
+  background: #ef5122;
+  border: 15px solid #f49ea7;
+}
+
+.square11{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #68ac87;
+  float: right;
+}
+
+/*jQuery Classes*/
+
+.jumble{
+  letter-spacing: 5em;
+}
+
+.zoom{
+  width: 800px;
 }
