@@ -5,10 +5,11 @@ p{
   text-align: center;
 }
 .squareOne{
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   background: #ef5122;
   display: inline-block;
+  border: 15px solid #f49ea7;
 }
 
 .squareTwo{
@@ -16,6 +17,7 @@ p{
   height: 200px;
   background: #68ac87;
   float: right;
+  border: 4px solid #f49ea7;
 }
 
 .squareThree{
@@ -28,17 +30,18 @@ p{
 }
 
 .squareFour{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background: #ef5122;
-  border: 2px solid #68ac87;
+  border: 15px solid #f49ea7;
   float: right;
 }
 
 .squareFive{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background:#68ac87;
+  border: 4px solid #f49ea7;
 }
 
 .squareSix{
@@ -46,26 +49,31 @@ p{
   height: 300px;
   background: #f49ea7;
   float: right;
+  border: 2px solid #68ac87;
 }
 
 .squareSeven{
-  width: 300px;
-  height: 300px;
+  width: 325px;
+  height: 250px;
   background: #68ac87;
   border-radius: 10%;
   border: 4px solid #f49ea7;
+  float: right;
 }
 
 .squareEight{
   width: 200px;
   height: 200px;
   background: #68ac87;
+  border: 4px solid #f49ea7;
+  float: right;
 }
 
 .squareNine{
   width: 200px;
   height: 200px;
   background: #f49ea7;
+  border: 2px solid #ef5122;
 }
 
 .square10{
@@ -81,6 +89,15 @@ p{
   border-radius: 100%;
   background: #68ac87;
   float: right;
+  border: 4px solid #f49ea7;
+}
+
+.square12{
+  width: 200px;
+  height: 200px;
+  background: #f49ea7;
+  border: 2px solid #ef5122;
+
 }
 
 /*jQuery Classes*/

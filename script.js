@@ -79,6 +79,13 @@ $(".square11").click(function(event){
   $(this).css("background-color","#f49ea7")
 });
 
+$(".square12").hover(function(event){
+  $(this).addClass("zoom");
+  $(this).css("background-color", "#f49ea7")
+  $(this).css("border","4px solid #68ac87")
+  $(this).css("float", "right")
+});
+
 // $(".square11").click(function(event){
 //   $(this).removeClass("zoom");
 // });
